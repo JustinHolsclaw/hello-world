@@ -1,3 +1,5 @@
+@model hello_world.Models.User
+
 @{
     ViewData["Title"] = "Volunteer";
 }
@@ -5,4 +7,30 @@
 <div class="text-center">
     <h1 class="display-4">Volunteer here</h1>
     <p>We are always in need of new volunteers to help care for these animals.</p>
+    <form asp-action="Volunteer" asp-asp-controller="Home" method="post">
+        <div>
+            <label asp-for="Username"></label>
+            <input asp-for="Username"/>
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div>
+             <label asp-for="Fullname"></label>
+            <input asp-for="Fullname"/>
+            <span asp-validation-for="Fullname"></span>
+        </div>
+        <div>
+             <label asp-for="Password"></label>
+            <input asp-for="Password"/>
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div>
+             <label asp-for="Email"></label>
+            <input asp-for="Email"/>
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
 </div>

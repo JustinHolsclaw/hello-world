@@ -1,5 +1,4 @@
 using System;
-
 namespace hello_world.Models
 {
     public class ErrorViewModel

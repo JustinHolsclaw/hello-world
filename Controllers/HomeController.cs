@@ -20,22 +20,32 @@ namespace hello_world.Controllers
             _logger = logger;
         }
 
-   public string Contact()
+        public static User _User = new User
         {
-            var user = new User {
-                Username = "Todd",
-                Fullname = "Todd Menster",
-                Password = "My secure password."};
-                var json = JsonConvert.SerializeObject(user, Formatting.Indented);
+            Username = " ",
+            Fullname = " ",
+            Password = " ",
+            Email = " ",
+        };
+    public IActionResult Volunteer(){
+        
+        return View(_User);
+    }
 
-                return json;
+
+    
+   public IActionResult Animals()
+        {
+                return View();
         }
-
+        [Route ("")]
+        [Route("Home")]
+        [Route("Home/index")]
         public IActionResult Index()
         {
             return View();
         }
-
+        [Route("Privacy")]
         public IActionResult Privacy()
         {
             return View();

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mA/INLHGvNbWT2g5PsCgz1OU+skdL8XtgV+r4zbvGalfzOCkXcXCrh5dfeVBcLU1jzYOE7vGybg8OUGA+dLJBA==",
+  "dgSpecHash": "TcfW69M79YdtYq/zjS1mjLFWrmujGYo1EJIqgYA8i8rtCWQGK06jq9crx+fICXNtKsx7s8Cj/NW0cPbV9yt0DQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\justin.holsclaw\\hello-world\\hello-world.csproj",
+  "projectFilePath": "C:\\Users\\jhols\\Desktop\\hello-world\\hello-world.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\justin.holsclaw\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\jhols\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
